@@ -1,0 +1,215 @@
+/*
+=====================================
+      PALETA DE COLORES
+=====================================
+
+Header / Superficie: #111827
+Fondo:               #0B0F19
+Texto principal:     #F3F4F6
+Secundario :   #C4B5FD
+Hover : #A78BFA
+
+=====================================
+*/
+
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* elimina los estilos por defecto del navegador */
+
+/*  BODY  */
+body {
+  background-color: #0B0F19;
+  color: #F3F4F6;
+  font-family: 'Poppins', sans-serif;
+  /* Poppins viene de Google Fonts sans-serif es el  por defecto */
+}
+
+/*  HEADER  */
+header {
+  background-color: #111827;
+  color: #F3F4F6;
+  margin: 0;
+  padding: 10px 20px;
+  border-radius: 0 0 12px 12px;
+  /* solo redondeo abajo para que se vea pegado arriba */
+}
+
+/*  TITULOS  */
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 10px 0 20px 0;
+  border-bottom: 3px solid #C4B5FD;
+  display: inline-block;
+}
+
+/*  PARRAFO  */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/*  IMAGEN  */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 4px solid #C4B5FD;
+  width: auto;
+  height: 400px;
+  transition: transform 0.3s ease;
+}
+img:hover {
+  transform: scale(1.04);
+}
+
+/*  MAIN  */
+main {
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+
+/*  LINKS  */
+a {
+  text-decoration: none;
+  color: #F3F4F6;
+  margin: 20px;
+  font-weight: 600;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+a:hover {
+  color: #A78BFA;
+  font-weight: 500;
+  background-color: #322d42;
+  transform: scale(1.15);
+  border-radius: 6px;
+  padding: 4px 8px;
+}
+
+/*  NAV  */
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+/*seccion*/
+#about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* CARDS CONTAINER*/
+#cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* CARD*/
+.card {
+  background-color: #161D2F;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  transition: transform 0.3s, background-color 0.3s;
+}
+.card:hover {
+  background-color: #322d42;
+  transform: scale(1.02);
+}
+
+/*  LISTAS  */
+.vecto {
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+/*  SECCION PROYECTOS  */
+#proyectos {
+  text-align: left;
+  font-size: 18px;
+}
+#proyectos p {
+  text-align: left;
+}
+
+.hobbies-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.hobbies-container section {
+  flex: 1;
+  background-color: #161D2F;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.hobbies-container section:hover {
+  background-color: #322d42;
+  transform: scale(1.02);
+}
+#volver {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #C4B5FD;
+  color: #0B0F19;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.btn:hover {
+  background-color: #A78BFA;
+  color: #0B0F19;
+  transform: scale(1.08);
+}
+
+footer {
+  background-color: #111827;
+  color: #C4B5FD;
+  margin-top: 40px;
+  padding: 20px 40px;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
